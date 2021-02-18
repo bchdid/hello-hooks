@@ -13,7 +13,7 @@ const Article = ({ title, abstract }) => {
         <>
             <div style={{ color: 'red' }}><b>{title}</b></div>
             <div>{abstract}</div>
-            l <br />
+            <br />
         </>
     )
 }
