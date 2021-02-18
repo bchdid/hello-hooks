@@ -44,18 +44,24 @@ const Addition = () => {
         console.log("Non primitive variables");
     }, [person])
 
+    // Get result for a calculation
     const equalAddi = () => {
-        setRes(firstNum + secNum)
-    }
-    const incFirst = () => {
-        setFirstNum(++firstNum)
-    }
-    const decFirst = () => {
-        setFirstNum(--firstNum)
+        setRes(firstNum + secNum);
     }
 
+    // Add value +1
+    const incFirst = () => {
+        setFirstNum(++firstNum);
+    }
+
+    // Minus value -1
+    const decFirst = () => {
+        setFirstNum(--firstNum);
+    }
+
+    // Handle to go back
     const pathCallBack = () => {
-        history.goBack()
+        history.goBack();
     }
 
     return (
@@ -65,7 +71,7 @@ const Addition = () => {
                 <button onClick={equalAddi}>=</button>
                 {res}
             </div>
-            <br/>
+            <br />
             <div>
                 <button onClick={incFirst}>
                     +
@@ -74,7 +80,7 @@ const Addition = () => {
                     -
                 </button>
             </div>
-            <br/>
+            <br />
             <div>
                 <button onClick={pathCallBack}>
                     Go back
