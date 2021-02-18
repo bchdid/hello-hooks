@@ -11,7 +11,7 @@ const Article = ({ title, abstract }) => {
 
     return (
         <>
-            <div><b>{title}</b></div>
+            <div style={{ color: 'red' }}><b>{title}</b></div>
             <div>{abstract}</div>
             l <br />
         </>
