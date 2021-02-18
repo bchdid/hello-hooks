@@ -33,6 +33,21 @@ const MainComp = () => {
                     Articles
                 </a>
             </div>
+            <div>
+                <a href="#fake" onClick={goToCom("practiceUseState")}>
+                    Practice Use State
+                </a>
+            </div>
+            <div>
+                <a href="#fake" onClick={goToCom("practiceUseReducer")}>
+                    Practice Use Reducer
+                </a>
+            </div>
+            <div>
+                <a href="#fake" onClick={goToCom("testPracticeUseReducer")}>
+                   Test Practice Use Reducer
+                </a>
+            </div>
         </>
 
     )
