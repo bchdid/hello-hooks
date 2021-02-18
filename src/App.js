@@ -5,6 +5,7 @@ import Addition from "./screens/addition/Addition";
 import FirstFunctionComponent from "./screens/functionComponent/FirstFunctionComponent";
 import FirstClassComponent from "./screens/classComponent/FirstClassComponent";
 import Articles from "./screens/articles/Articles";
+import CenterElements from "./hoc/centerElements/CenterElements";
 
 /**
  * Main App
@@ -13,30 +14,30 @@ import Articles from "./screens/articles/Articles";
  */
 const App = () => {
     return (
-        <>
-            <BrowserRouter>
-                <Switch>
-                    <Route exact path="/">
+        <BrowserRouter>
+            <Switch>
+                <Route exact path="/">
+                    <CenterElements>
                         <MainComp />
-                    </Route>
-                    <Route exact path="/addition">
-                        <Addition />
-                    </Route>
-                    <Route exact path="/functionComp">
-                        <FirstFunctionComponent/>
-                    </Route>
-                    <Route exact path="/classComp">
-                        <FirstClassComponent/>
-                    </Route>
-                    <Route exact path="/articles">
-                        <Articles/>
-                    </Route>
-                    <Route exact path="*">
-                       error
-                    </Route>
-                </Switch>
-            </BrowserRouter>
-        </>
+                    </CenterElements>
+                </Route>
+                <Route exact path="/addition">
+                    <Addition />
+                </Route>
+                <Route exact path="/functionComp">
+                    <FirstFunctionComponent />
+                </Route>
+                <Route exact path="/classComp">
+                    <FirstClassComponent />
+                </Route>
+                <Route exact path="/articles">
+                    <Articles />
+                </Route>
+                <Route exact path="*">
+                    error
+                </Route>
+            </Switch>
+        </BrowserRouter>
     );
 }
 
