@@ -35,29 +35,35 @@ const MainComp = () => {
             </div>
             <div>
                 <a href="#fake" onClick={goToCom("practiceUseState")}>
-                    Practice Use State
+                    Practice useState
                 </a>
             </div>
             <div>
                 <a href="#fake" onClick={goToCom("practiceUseReducer")}>
-                    Practice Use Reducer
+                    Practice useReducer
                 </a>
             </div>
             <div>
                 <a href="#fake" onClick={goToCom("personFormUseState")}>
-                    Person Use State
+                    Person useState
                 </a>
             </div>
             <div>
                 {/*Example how to use Link to redirect to another page*/}
                 <Link to='/personFormUseReducer'>
-                    Person Use Reducer
+                    Person useReducer
                 </Link>
             </div>
             <div>
                 {/*Example how to use Link to redirect to another page*/}
                 <Link to='/supermarket'>
                     Supermarket
+                </Link>
+            </div>
+            <div>
+                {/*Example how to use Link to redirect to another page*/}
+                <Link to='/practiceUseCallback'>
+                    Practice useCallBack
                 </Link>
             </div>
         </>

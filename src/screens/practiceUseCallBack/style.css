@@ -1,0 +1,29 @@
+.practice-callback-main {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.default-theme {
+    color: black;
+    background: white;
+}
+
+.black-theme {
+    color: white;
+    background: black;
+}
+
+.red-theme {
+    color: black;
+    background: red;
+}
+
+.blue-theme {
+    color: black;
+    background: deepskyblue;
+}

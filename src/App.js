@@ -8,6 +8,7 @@ import CenterElements from "./hoc/centerElements/CenterElements";
 import SuperMarket from "./screens/practiceUseContext/Supermarket";
 import FirstClassComponent from "./screens/classComponent/FirstClassComponent";
 import PersonFormUseState from "./screens/personFormUsestate/PersonFormUseState";
+import PracticeUseCallBack from "./screens/practiceUseCallBack/PracticeUseCallBack";
 import PersonFormUseReducer from "./screens/personFormUseReduser/PersonFormUseReducer";
 import FirstFunctionComponent from "./screens/functionComponent/FirstFunctionComponent";
 import PracticeUseState from "./screens/stateManagement/paracticeUseState/PracticeUseState";
@@ -62,6 +63,11 @@ const App = () => {
                 <Route exact path="/supermarket">
                     <CenterElements>
                         <SuperMarket />
+                    </CenterElements>
+                </Route>
+                <Route exact path="/practiceUseCallback">
+                    <CenterElements>
+                        <PracticeUseCallBack />
                     </CenterElements>
                 </Route>
                 <Route exact path="*">
