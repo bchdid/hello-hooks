@@ -1,7 +1,7 @@
 import React, { useReducer } from 'react'
 
-import { reducer } from "../../reducer/PersonFormUseReducer";
-import { setFirstName, setLastName, setPhoneNumber, setAddress, setGraduate } from "../../actions/PersonFormUseReducer";
+import { reducer } from "../../reducer/personFormUseReducer";
+import { setFirstName, setLastName, setPhoneNumber, setAddress, setGraduate } from "../../actions/personFormActions";
 
 const initState = {
     address: "",

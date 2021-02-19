@@ -1,0 +1,13 @@
+.supermarket-main-items {
+    width: 500px;
+    margin: 10px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    background: lightblue;
+    border: 1px solid black;
+}
+
+.supermarket-items-add,
+.supermarket-items-remove{
+    text-decoration: none;
+}

@@ -5,6 +5,7 @@ import Articles from "./screens/articles/Articles";
 import Addition from "./screens/addition/Addition";
 import MainComp from "./screens/mainComponent/MainComp";
 import CenterElements from "./hoc/centerElements/CenterElements";
+import SuperMarket from "./screens/practiceUseContext/Supermarket";
 import FirstClassComponent from "./screens/classComponent/FirstClassComponent";
 import PersonFormUseState from "./screens/personFormUsestate/PersonFormUseState";
 import PersonFormUseReducer from "./screens/personFormUseReduser/PersonFormUseReducer";
@@ -50,12 +51,17 @@ const App = () => {
                 </Route>
                 <Route exact path="/personFormUseState">
                     <CenterElements>
-                        <PersonFormUseState/>
+                        <PersonFormUseState />
                     </CenterElements>
                 </Route>
                 <Route exact path="/personFormUseReducer">
                     <CenterElements>
                         <PersonFormUseReducer />
+                    </CenterElements>
+                </Route>
+                <Route exact path="/supermarket">
+                    <CenterElements>
+                        <SuperMarket />
                     </CenterElements>
                 </Route>
                 <Route exact path="*">

@@ -54,6 +54,12 @@ const MainComp = () => {
                     Person Use Reducer
                 </Link>
             </div>
+            <div>
+                {/*Example how to use Link to redirect to another page*/}
+                <Link to='/supermarket'>
+                    Supermarket
+                </Link>
+            </div>
         </>
     )
 }

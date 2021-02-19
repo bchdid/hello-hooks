@@ -9,3 +9,6 @@ export const SET_PHONE_NUMBER = 'SET_PHONE_NUMBER';
 export const SET_ADDRESS = 'SET_ADDRESS';
 export const SET_GRADUATE = 'SET_GRADUATE';
 
+// Action types used for supermarket component
+export const ADD_ITEM = 'ADD_ITEM';
+export const REMOVE_ITEM = 'REMOVE_ITEM';
