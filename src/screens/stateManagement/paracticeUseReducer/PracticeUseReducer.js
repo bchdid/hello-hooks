@@ -1,6 +1,6 @@
 import React, { useReducer } from "react";
 import { decrement, increment } from "../../../actions/practiveUseReducer";
-import { reducer } from "../../../reducer/practiceUseReducer/practiceUseReducer";
+import { reducer } from "../../../reducer/practiceUseReducer";
 
 // Initial component state
 export const initState = {
