@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Detail from "./Detail";
-import axios from "axios";
 
 const FirstFunctionComponent = () => {
 
