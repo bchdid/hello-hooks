@@ -14,7 +14,7 @@ export const initState = {
  */
 const PracticeUseReducer = () => {
 
-    const [state, dispatch] = useReducer(reducer, initState);
+    const [state, dispatch] = useReducer(reducer, initState, undefined);
 
     return (
         <>
