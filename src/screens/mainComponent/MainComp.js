@@ -1,5 +1,5 @@
 import React from "react";
-import { useHistory } from "react-router-dom"
+import { useHistory, Link } from "react-router-dom";
 
 const MainComp = () => {
 
@@ -43,8 +43,18 @@ const MainComp = () => {
                     Practice Use Reducer
                 </a>
             </div>
+            <div>
+                <a href="#fake" onClick={goToCom("personFormUseState")}>
+                    Person Use State
+                </a>
+            </div>
+            <div>
+                {/*Example how to use Link to redirect to another page*/}
+                <Link to='/personFormUseReducer'>
+                    Person Use Reducer
+                </Link>
+            </div>
         </>
-
     )
 }
 
